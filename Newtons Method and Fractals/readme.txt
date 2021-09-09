@@ -7,7 +7,7 @@ Created by Jordan and Colon
     Newtons Method is a way to algorithmically find roots of functions.
 
     Fractrals are produced when, given a starting point in Real numbers, you count how many steps Newtons Method takes to find a root. 
-    If you map the number of steps to the starting point, an imagine can be created that will result in a fractal!
+    If you map the number of steps to the starting point, an image can be created that will result in a fractal!
 
     This code here is how we decided to approach this process!
     
