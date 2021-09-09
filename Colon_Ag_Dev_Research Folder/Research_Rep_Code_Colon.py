@@ -13,7 +13,11 @@ from IPython.core.display import HTML
 
 
 
-#run this regression in order to produce everything, and more, that is in the research results
+#Run this python to produce everything, and more, that is in the research results
+  #to RUN this code you must: 
+    # 1. download the "Colon_Ag_Dev_Research" folder 
+    # 2. provide the location of the folder into the *root* variable below
+    # 3. press RUN! (all produced data will go into the "Output" subfolder) 
 
 
 #location of the "Colon_Ag_Dev_Research" Folder
@@ -602,7 +606,7 @@ with open("{}/Crop_Reg_Fixed_Effects_Notable_Area_Table.html".format(reg_table_l
 
 
 
-### Now we analyze and create data for HYV dat!!!!!    
+### Now we analyze and create data for HYV data!!!!!    
 HYV_crops =   ["HYV Rice", " HYV Maize", "HYV Bajra", "HYV Wheat"]
 fit_d = {}
 fit_d2 = {}
@@ -680,7 +684,7 @@ with open("{}/HYV_NO_Fixed_Area_Effects_Table.html".format(reg_table_loc), "w") 
 
 #HERE we creat the category scatterplots
 order = ["Lower", "Middle", "Upper"]
-#plt.figure()
+
 
 x= "Magnitude"
 y= "YoY"
